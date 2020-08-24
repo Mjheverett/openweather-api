@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Chuck Says</title>
+        <title>OpenWeatherAPI</title>
         <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/index.css">
     </head>
     <body>
         <div class="container">
-            <h1>Chuck Says...</h1>
-            <img src="images/chucknorris.jpg">
-            <p id="chuckSays">Chuck Says...</p>
-            <button type="button" id="refreshQuote">Refresh Quote</button>
+            <h1>Weather</h1>
+            <p id="weatherDisplay">The Weather in ...</p>
             <form>
-                <input type="text" value="" id="categoryInput" required/>
-                <button type="submit" id="submitForm">Get an Animal Quote</button>
+                <label>
+                    Enter City:
+                    <input type="text" value="" id="locationInput" name="cityInput" required placeholder="Type in a city name"/>
+                </label>
+                <button type="submit" id="submitForm">Get weather</button>
             </form>
         </div>
     </body>
