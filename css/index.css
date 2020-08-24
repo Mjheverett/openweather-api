@@ -5,6 +5,7 @@
 html {
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
+    background-color: orangered;
 }
 
 body {
@@ -12,4 +13,18 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
+}
+
+h1, p {
+    color: white;
+}
+
+p {
+    padding: 30px;
+    font-size: 1.5rem;
+}
+
+button {
+    width: 150px;
+    height: 75px;
 }
