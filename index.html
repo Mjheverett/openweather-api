@@ -9,10 +9,14 @@
     <body>
         <div class="container">
             <h1>Weather</h1>
-            <p id="weatherDisplay">The Weather in ...</p>
+            <h4 id="cityName">City Name</h4>
+            <hr>
+            <p id="currentTemp"></p>
+            <p id="feelsLikeTemp"></p>
+            <p id="currentHumid"></p>
+            <p id="currentWind"></p>
             <form>
                 <label>
-                    Enter City:
                     <input type="text" value="" id="locationInput" name="cityInput" required placeholder="Type in a city name"/>
                 </label>
                 <button type="submit" id="submitForm">Get weather</button>
